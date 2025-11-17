@@ -46,21 +46,14 @@ class OutputScreen extends StatelessWidget {
                   animation: true,
                   radius: 140.0.w,
                   lineWidth: 30.0.w,
-                  linearGradient: LinearGradient(
-                    colors: [
-                      Color.fromARGB(255, 249, 0, 0),
-                      Color(0xff08CB00),
-
-                      Color(0xff08CB00),
-                    ],
-                  ),
+                  progressColor: Color(int.parse(controller.color.value)),
                   percent: controller.bmi.value / 100,
                   center: Text(
                     (controller.bimout.value * 100).toStringAsFixed(1),
                     style: TextStyle(
                       fontSize: 45.sp,
                       fontWeight: FontWeight.bold,
-                      color: Color(0xffffffff),
+                      color: Color(int.parse(controller.color.value)),
                     ),
                   ),
 
