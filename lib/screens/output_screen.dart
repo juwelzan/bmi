@@ -72,13 +72,13 @@ class OutputScreen extends StatelessWidget {
               }),
             ),
             Gap(100.h),
-            GestureDetector(
-              onTap: () {
+            IconButton(
+              onPressed: () {
                 Navigator.pushReplacementNamed(context, "home");
                 controller.heightValue.value = 0.0;
                 controller.weightValue.value = 0;
               },
-              child: Image.asset(
+              icon: Image.asset(
                 "assets/refresh-page-option.png",
                 width: 40.w,
                 color: Color(0xffffffff),

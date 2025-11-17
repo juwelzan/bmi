@@ -246,9 +246,7 @@ class HomeScreen extends StatelessWidget {
                       controller.weightValue.value >= 1.0) {
                     controller.bimAns();
                     Navigator.pushNamed(context, "/output");
-                    print("object");
                   }
-                  print("123");
                 },
                 icon: Image.asset("assets/bmi (1).png", width: 60.sp),
               ),
