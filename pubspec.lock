@@ -99,6 +99,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.7.2"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      sha256: "3df61194eb431efc39c4ceba583b95633a403f46c9fd341e550ce0bfa50e9aa5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.20.2"
   leak_tracker:
     dependency: transitive
     description:
@@ -163,6 +171,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+  percent_indicator:
+    dependency: "direct main"
+    description:
+      name: percent_indicator
+      sha256: "157d29133bbc6ecb11f923d36e7960a96a3f28837549a20b65e5135729f0f9fd"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.2.5"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -200,6 +216,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.4.1"
+  syncfusion_flutter_core:
+    dependency: transitive
+    description:
+      name: syncfusion_flutter_core
+      sha256: "8118f13264d1401a7085d12a0aaeac1ebd5cd939046b8c565d195879646daad6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "31.2.10"
+  syncfusion_flutter_sliders:
+    dependency: "direct main"
+    description:
+      name: syncfusion_flutter_sliders
+      sha256: "051dfc128480aefe5af8e6889eb66f0244b171131aeebb5b196a7b2ee5413ed7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "31.2.10"
   term_glyph:
     dependency: transitive
     description:
@@ -240,6 +272,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
+  wheel_chooser:
+    dependency: transitive
+    description:
+      name: wheel_chooser
+      sha256: "3fee36f081f321c58a0b7b4afcdd92599f2ca520b3a1420084774e6b19cca1d8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.2"
+  wheel_slider:
+    dependency: "direct main"
+    description:
+      name: wheel_slider
+      sha256: "6e29d2be088591fdc8d63fff647fe7ec0bd87f872165eabf8b73e59168d9b733"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.2"
 sdks:
   dart: ">=3.10.0-290.4.beta <4.0.0"
-  flutter: ">=3.18.0-18.0.pre.54"
+  flutter: ">=3.35.1"

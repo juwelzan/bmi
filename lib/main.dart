@@ -1,4 +1,5 @@
 import 'package:bmi/screens/home_screen.dart';
+import 'package:bmi/screens/output_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
@@ -22,7 +23,10 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: "home",
-      routes: {"home": (context) => HomeScreen()},
+      routes: {
+        "home": (context) => HomeScreen(),
+        "/output": (context) => OutputScreen(),
+      },
     );
   }
 }
